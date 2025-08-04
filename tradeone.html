@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bube's Pro Trading</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #2563eb;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            display: block;
+        }
+        nav a:hover {
+            background: #1d4ed8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .hero {
+            background: linear-gradient(to right, #3b82f6, #60a5fa);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 1rem;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card h3 {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bube's Pro Trading</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#markets">Markets</a>
+        <a href="#strategies">Strategies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Welcome to Bube's Pro Trading</h2>
+            <p>Your trusted platform for learning and trading like a pro.</p>
+        </section>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Live Market Data</h3>
+                <p>Get real-time updates on stock, forex, and crypto prices.</p>
+            </div>
+            <div class="card">
+                <h3>Trading Strategies</h3>
+                <p>Access winning strategies tested by experienced traders.</p>
+            </div>
+            <div class="card">
+                <h3>Community Support</h3>
+                <p>Join a network of traders and grow together.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Bube's Pro Trading. All rights reserved.</p>
+    </footer>
+</body>
+</html>
